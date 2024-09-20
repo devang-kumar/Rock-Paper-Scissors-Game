@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rockgame.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="won-loss-counter">
+            <div class="player-won">
+                <h2>Won</h2>
+                <p id="player-won">0</p>
+            </div>
+            <div class="computer-loss">
+                <h2>Loss</h2>
+                <p id="computer-loss">0</p>
+            </div>
+        </div>
+        <div class="scoreboard">
+            <div class="player-score">
+                <h2>Player</h2>
+                <p id="player-score"></p>
+            </div>
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p id="computer-score"></p>
+            </div>
+        </div>
+        <div class="choices">
+            <button id="rock" class="choice-btn" onclick="Rock()">Rock</button>
+            <button id="paper" class="choice-btn" onclick="paper()">Paper</button>
+            <button id="scissors" class="choice-btn" onclick="Scissors()">Scissors</button>
+        </div>
+        <div class="result-container" onclick="find()">
+            <p id="result">Start!</p>
+            <div id="game-result" style="margin-top: 10px; font-size: 18px; color: #004d40;"></div>
+        </div>
+        <button class="new1" onclick="clearGame1()">Reset Game</button>
+    </div>
+</body>
+<script src="rockgame.js"></script>
+</html>

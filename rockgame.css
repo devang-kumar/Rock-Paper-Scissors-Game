@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #00796b;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.player-score, .computer-score {
+    background-color: #80cbc4;
+    padding: 7px;
+    border-radius: 10px;
+    width: 110px;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.choice-btn {
+    padding: 15px 25px;
+    font-size: 22px;
+    border: 3px solid #00796b;
+    border-radius: 8px;
+    background-color: #b2dfdb;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choice-btn:hover {
+    background-color: #00796b;
+    color: white;
+}
+
+.result-container {
+    background-color: #e0f2f1;
+    padding: 20px;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+}
+
+#result {
+    font-size: 22px;
+    color: #004d40;
+}
+
+.won-loss-counter {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.player-won, .computer-loss {
+    background-color: #80cbc4;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.new1 {
+    padding: 15px 25px;
+    font-size: 22px;
+    border: 3px solid #00796b;
+    border-radius: 8px;
+    background-color: #b2dfdb;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
